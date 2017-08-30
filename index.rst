@@ -6,11 +6,6 @@
 Welcome to Translucent Image's documentation!
 =============================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
 
 Indices and tables
 ==================
