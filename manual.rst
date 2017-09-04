@@ -1,4 +1,4 @@
-Translucent Image's Manual
+Manual
 ============================================= 
  
 ***************
@@ -54,7 +54,7 @@ Translucent Image
 * **Source**: Translucent Image Source component. This is where the image gets the blurred screen. It will automatically being set to the first one found, so you should make sure there on in your screen before creating any Translucent Image. You can always override this to change which camera will be blurred
 * **Color**: Color
 * **Vibrancy**: How colorful you want the background to be, 0 mean black and white, negative value will invert the color. This is great for enhancing the detail behind the image, or making death screen.
-* **Material**: Multiple Translucent Image using the same material can only have different color, but they will also batch and only take one draw call. 
+* **Material**: Multiple Translucent Image using the same material can only have different color, but they will also batch and only take one draw call.
 	.. attention:: Material used here must use the shader UI/TranslucentImage
 * **Raycast** Target: same as other UI element, whether it receive pointer event or not. (Translation: clickable. And some minor other thing)
 

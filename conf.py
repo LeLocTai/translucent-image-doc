@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+html_theme = "sphinx_rtd_theme"
 
 extensions = []
 
@@ -25,3 +26,7 @@ pygments_style = 'sphinx'
 todo_include_todos = False
 
 html_static_path = ['_static']
+html_context = {
+	"display_github": False,
+	"commit": False,
+}
