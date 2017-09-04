@@ -27,6 +27,7 @@ todo_include_todos = False
 
 html_static_path = ['_static']
 html_context = {
+	"show_source":False,
 	"display_github": False,
-	"commit": False,
+	"commit": False
 }
